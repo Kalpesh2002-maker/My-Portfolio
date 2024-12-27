@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 6, 57);
+    color: white;
+    font-family: 'Poppins:ital';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(5, 5, 46);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(154, 185, 239);
+    font-size: 1.02rem;
+}
+
+main section.secondSection {
+    border: 0;
+    border-left: 1.3px;
+    background: #9c97f1;
+    height: 1.5px;
+    width: 100%;
+    align-self: auto;
+}
+
+.left {
+    font-size: x-large
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    /* background-color: red; */
+    width: 80px;
+    font-size: 2.5rem;
+    margin: 30px;
+}
+.leftSection .buttons{
+    padding: 50px 0;
+    text-decoration: none;
+}
+.leftSection .btn{
+    padding: 12px;
+    background: #6cb3ff;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rightSection img {
+    width: 100%;
+    margin: 50px;
+}
+
+.purple {
+    color: rgb(131, 18, 236)
+}
+
+.text-grey {
+    color: grey;
+}
+
+#element {
+    color: rgb(131, 18, 236)
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    /* width: 70%;
+    height: 70%; */
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 2.5rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+.secondSection.vertical{
+    height: 93px;
+    width: 1px;
+    background-color: azure;
+
+}
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    /* width: 70%;
+    height: 70%; */
+    height: 80vh;
+}
+.secondSection .button{
+    margin-top: auto;
+}
